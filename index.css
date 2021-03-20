@@ -1,12 +1,22 @@
 body {
   background-color: #2d3436;
+
+  margin-top: 200px;
 }
 
 .btn {
   cursor: pointer;
 }
 body {
-  color: #34495e;
+  color: white;
+}
+
+div {
+  /* background-color: peru;
+  border-style: solid;
+  border-color: peru; */
+  margin-left: 200px;
+  margin-right: 300px;
 }
 
 .clicked {
@@ -39,4 +49,7 @@ body {
   height: 100%;
   z-index: -1;
   animation: fadeIn 0.5s linear;
+  opacity: 1;
+  filter: blur(8px);
+  -webkit-filter: blur(px);
 }
